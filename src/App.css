@@ -1,17 +1,70 @@
 .App {
   text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
 }
-
+#root {
+  width: 100%;
+  height: 100%;
+}
+.homeMain {
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.sensorMain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  flex:2;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  flex:9;
+  justify-content: center;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.inputField {
+  margin: 10px 0px !important;
+  width: 100% !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.mainLogin {
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.loginBoxMain {
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  
+}
+
 
 .App-header {
   background-color: #282c34;
